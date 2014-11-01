@@ -129,7 +129,7 @@
 /* Define to 1 if translation of program messages to the user's native
    language is requested. */
 #ifndef USED_FOR_TARGET
-#define ENABLE_NLS 1
+/* #undef ENABLE_NLS */
 #endif
 
 
@@ -572,7 +572,7 @@
 
 /* Define to 1 if you have the `clearerr_unlocked' function. */
 #ifndef USED_FOR_TARGET
-/* #undef HAVE_CLEARERR_UNLOCKED */
+#define HAVE_CLEARERR_UNLOCKED 1
 #endif
 
 
@@ -623,7 +623,7 @@
 /* Define to 1 if we found a declaration for 'basename', otherwise define to
    0. */
 #ifndef USED_FOR_TARGET
-#define HAVE_DECL_BASENAME 0
+#define HAVE_DECL_BASENAME 1
 #endif
 
 
@@ -637,7 +637,7 @@
 /* Define to 1 if we found a declaration for 'clearerr_unlocked', otherwise
    define to 0. */
 #ifndef USED_FOR_TARGET
-#define HAVE_DECL_CLEARERR_UNLOCKED 0
+#define HAVE_DECL_CLEARERR_UNLOCKED 1
 #endif
 
 
@@ -658,14 +658,14 @@
 /* Define to 1 if we found a declaration for 'feof_unlocked', otherwise define
    to 0. */
 #ifndef USED_FOR_TARGET
-#define HAVE_DECL_FEOF_UNLOCKED 0
+#define HAVE_DECL_FEOF_UNLOCKED 1
 #endif
 
 
 /* Define to 1 if we found a declaration for 'ferror_unlocked', otherwise
    define to 0. */
 #ifndef USED_FOR_TARGET
-#define HAVE_DECL_FERROR_UNLOCKED 0
+#define HAVE_DECL_FERROR_UNLOCKED 1
 #endif
 
 
@@ -685,21 +685,21 @@
 /* Define to 1 if we found a declaration for 'fgetc_unlocked', otherwise
    define to 0. */
 #ifndef USED_FOR_TARGET
-#define HAVE_DECL_FGETC_UNLOCKED 0
+#define HAVE_DECL_FGETC_UNLOCKED 1
 #endif
 
 
 /* Define to 1 if we found a declaration for 'fgets_unlocked', otherwise
    define to 0. */
 #ifndef USED_FOR_TARGET
-#define HAVE_DECL_FGETS_UNLOCKED 0
+#define HAVE_DECL_FGETS_UNLOCKED 1
 #endif
 
 
 /* Define to 1 if we found a declaration for 'fileno_unlocked', otherwise
    define to 0. */
 #ifndef USED_FOR_TARGET
-#define HAVE_DECL_FILENO_UNLOCKED 0
+#define HAVE_DECL_FILENO_UNLOCKED 1
 #endif
 
 
@@ -713,21 +713,21 @@
 /* Define to 1 if we found a declaration for 'fputc_unlocked', otherwise
    define to 0. */
 #ifndef USED_FOR_TARGET
-#define HAVE_DECL_FPUTC_UNLOCKED 0
+#define HAVE_DECL_FPUTC_UNLOCKED 1
 #endif
 
 
 /* Define to 1 if we found a declaration for 'fputs_unlocked', otherwise
    define to 0. */
 #ifndef USED_FOR_TARGET
-#define HAVE_DECL_FPUTS_UNLOCKED 0
+#define HAVE_DECL_FPUTS_UNLOCKED 1
 #endif
 
 
 /* Define to 1 if we found a declaration for 'fread_unlocked', otherwise
    define to 0. */
 #ifndef USED_FOR_TARGET
-#define HAVE_DECL_FREAD_UNLOCKED 0
+#define HAVE_DECL_FREAD_UNLOCKED 1
 #endif
 
 
@@ -740,7 +740,7 @@
 /* Define to 1 if we found a declaration for 'fwrite_unlocked', otherwise
    define to 0. */
 #ifndef USED_FOR_TARGET
-#define HAVE_DECL_FWRITE_UNLOCKED 0
+#define HAVE_DECL_FWRITE_UNLOCKED 1
 #endif
 
 
@@ -775,7 +775,7 @@
 /* Define to 1 if we found a declaration for 'getopt', otherwise define to 0.
    */
 #ifndef USED_FOR_TARGET
-#define HAVE_DECL_GETOPT 1
+#define HAVE_DECL_GETOPT 0
 #endif
 
 
@@ -817,7 +817,7 @@
 /* Define to 1 if we found a declaration for 'madvise', otherwise define to 0.
    */
 #ifndef USED_FOR_TARGET
-#define HAVE_DECL_MADVISE 0
+#define HAVE_DECL_MADVISE 1
 #endif
 
 
@@ -900,7 +900,7 @@
 /* Define to 1 if we found a declaration for 'strverscmp', otherwise define to
    0. */
 #ifndef USED_FOR_TARGET
-#define HAVE_DECL_STRVERSCMP 0
+#define HAVE_DECL_STRVERSCMP 1
 #endif
 
 
@@ -951,13 +951,13 @@
 
 /* Define to 1 if you have the `feof_unlocked' function. */
 #ifndef USED_FOR_TARGET
-/* #undef HAVE_FEOF_UNLOCKED */
+#define HAVE_FEOF_UNLOCKED 1
 #endif
 
 
 /* Define to 1 if you have the `ferror_unlocked' function. */
 #ifndef USED_FOR_TARGET
-/* #undef HAVE_FERROR_UNLOCKED */
+#define HAVE_FERROR_UNLOCKED 1
 #endif
 
 
@@ -969,19 +969,19 @@
 
 /* Define to 1 if you have the `fgetc_unlocked' function. */
 #ifndef USED_FOR_TARGET
-/* #undef HAVE_FGETC_UNLOCKED */
+#define HAVE_FGETC_UNLOCKED 1
 #endif
 
 
 /* Define to 1 if you have the `fgets_unlocked' function. */
 #ifndef USED_FOR_TARGET
-/* #undef HAVE_FGETS_UNLOCKED */
+#define HAVE_FGETS_UNLOCKED 1
 #endif
 
 
 /* Define to 1 if you have the `fileno_unlocked' function. */
 #ifndef USED_FOR_TARGET
-/* #undef HAVE_FILENO_UNLOCKED */
+#define HAVE_FILENO_UNLOCKED 1
 #endif
 
 
@@ -999,25 +999,25 @@
 
 /* Define to 1 if you have the `fputc_unlocked' function. */
 #ifndef USED_FOR_TARGET
-/* #undef HAVE_FPUTC_UNLOCKED */
+#define HAVE_FPUTC_UNLOCKED 1
 #endif
 
 
 /* Define to 1 if you have the `fputs_unlocked' function. */
 #ifndef USED_FOR_TARGET
-/* #undef HAVE_FPUTS_UNLOCKED */
+#define HAVE_FPUTS_UNLOCKED 1
 #endif
 
 
 /* Define to 1 if you have the `fread_unlocked' function. */
 #ifndef USED_FOR_TARGET
-/* #undef HAVE_FREAD_UNLOCKED */
+#define HAVE_FREAD_UNLOCKED 1
 #endif
 
 
 /* Define to 1 if you have the `fwrite_unlocked' function. */
 #ifndef USED_FOR_TARGET
-/* #undef HAVE_FWRITE_UNLOCKED */
+#define HAVE_FWRITE_UNLOCKED 1
 #endif
 
 
@@ -1373,7 +1373,7 @@
 
 /* Define to 1 if you have the `madvise' function. */
 #ifndef USED_FOR_TARGET
-/* #undef HAVE_MADVISE */
+#define HAVE_MADVISE 1
 #endif
 
 
@@ -1665,7 +1665,7 @@
 
 /* Define if cloog is in use. */
 #ifndef USED_FOR_TARGET
-#define HAVE_cloog 1
+/* #undef HAVE_cloog */
 #endif
 
 
@@ -1799,7 +1799,7 @@
 
 /* The size of `long', as computed by sizeof. */
 #ifndef USED_FOR_TARGET
-#define SIZEOF_LONG 4
+#define SIZEOF_LONG 8
 #endif
 
 
@@ -1817,7 +1817,7 @@
 
 /* The size of `void *', as computed by sizeof. */
 #ifndef USED_FOR_TARGET
-#define SIZEOF_VOID_P 4
+#define SIZEOF_VOID_P 8
 #endif
 
 
