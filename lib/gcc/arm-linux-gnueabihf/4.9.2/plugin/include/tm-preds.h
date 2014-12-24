@@ -1,5 +1,5 @@
 /* Generated automatically by the program 'build/genpreds'
-   from the machine description file '/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/config/arm/arm.md'.  */
+   from the machine description file '/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/config/arm/arm.md'.  */
 
 #ifndef GCC_TM_PREDS_H
 #define GCC_TM_PREDS_H
@@ -177,7 +177,6 @@ enum constraint_num
   CONSTRAINT_Dp,
   CONSTRAINT_Ts,
   CONSTRAINT_Ua,
-  CONSTRAINT_Uh,
   CONSTRAINT_Ut,
   CONSTRAINT_Uv,
   CONSTRAINT_Uy,

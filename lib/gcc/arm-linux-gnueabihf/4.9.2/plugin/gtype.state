@@ -4,8 +4,8 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "4.9.2 20141013 (prerelease)")
-(!srcdir  "/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc")
+(!version  "4.9.2 20140904 (prerelease)")
+(!srcdir  "/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc")
 (!languages 9 ada c cp fortran go java lto objc objcp)
 (!fileslist 194
  (!srcfile 511  "../libcpp/include/line-map.h")
@@ -314,11 +314,11 @@
               (!srcfileloc  "tree-core.h" 729)
               nil )
              (!pair  "u"
-              (!type union 12 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/tree-core.h:731"
+              (!type union 12 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/tree-core.h:731"
                (!srcfileloc  "tree-core.h" 765)
                (!fields 3 
                 (!pair  "bits"
-                 (!type struct 13 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/tree-core.h:734"
+                 (!type struct 13 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/tree-core.h:734"
                   (!srcfileloc  "tree-core.h" 757)
                   (!fields 16 
                    (!pair  "lang_flag_0"
@@ -1472,23 +1472,23 @@
                                                    nil )
                                                   (!pair  "deferred_access_check"
                                                    (!type struct 73 nil  gc_used "deferred_access_check"
-                                                    (!srcfileloc  "cp/cp-tree.h" 5700)
+                                                    (!srcfileloc  "cp/cp-tree.h" 5698)
                                                     (!fields 4 
                                                      (!pair  "binfo"
                                                       (!type already_seen 5)
-                                                      (!srcfileloc  "cp/cp-tree.h" 5693)
+                                                      (!srcfileloc  "cp/cp-tree.h" 5691)
                                                       nil )
                                                      (!pair  "decl"
                                                       (!type already_seen 5)
-                                                      (!srcfileloc  "cp/cp-tree.h" 5695)
+                                                      (!srcfileloc  "cp/cp-tree.h" 5693)
                                                       nil )
                                                      (!pair  "diag_decl"
                                                       (!type already_seen 5)
-                                                      (!srcfileloc  "cp/cp-tree.h" 5697)
+                                                      (!srcfileloc  "cp/cp-tree.h" 5695)
                                                       nil )
                                                      (!pair  "loc"
                                                       (!type already_seen 9)
-                                                      (!srcfileloc  "cp/cp-tree.h" 5699)
+                                                      (!srcfileloc  "cp/cp-tree.h" 5697)
                                                       nil )
                                                     )
                                                     nil 260 nil nil )
@@ -6616,7 +6616,7 @@
                                )
                               )
                               (!pair  "x"
-                               (!type struct 321 nil  gc_used "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/basic-block.h:187"
+                               (!type struct 321 nil  gc_used "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/basic-block.h:187"
                                 (!srcfileloc  "basic-block.h" 190)
                                 (!fields 2 
                                  (!pair  "head_"
@@ -8591,7 +8591,7 @@
                               (!srcfileloc  "dwarf2out.h" 55)
                               nil )
                              (!pair  "dw_cfi_oprnd1"
-                              (!type union 413 nil  gc_used "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/dwarf2out.h:47"
+                              (!type union 413 nil  gc_used "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/dwarf2out.h:47"
                                (!srcfileloc  "dwarf2out.h" 52)
                                (!fields 4 
                                 (!pair  "dw_cfi_reg_num"
@@ -10900,7 +10900,7 @@
                  )
                 )
                 (!pair  "loc"
-                 (!type union 512 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/tree-core.h:1167"
+                 (!type union 512 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/tree-core.h:1167"
                   (!srcfileloc  "tree-core.h" 1167)
                   (!fields 2 
                    (!pair  "stmt"
@@ -12716,7 +12716,7 @@
                        (!srcfileloc  "c/c-decl.c" 212)
                        (!fields 11 
                         (!pair  "u"
-                         (!type union 585 nil  gc_used "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/c/c-decl.c:198"
+                         (!type union 585 nil  gc_used "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/c/c-decl.c:198"
                           (!srcfileloc  "c/c-decl.c" 201)
                           (!fields 2 
                            (!pair  "type"
@@ -13735,7 +13735,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 644 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/java/expr.c:2060"nil 
+ (!type struct 644 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/java/expr.c:2060"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -13862,11 +13862,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 655 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/fortran/trans.h:340"nil 
+ (!type struct 655 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/fortran/trans.h:340"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 656 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/fortran/trans.h:328"nil 
+ (!type struct 656 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/fortran/trans.h:328"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -13890,7 +13890,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 662 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/fortran/trans.h:33"nil 
+ (!type struct 662 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/fortran/trans.h:33"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -14547,39 +14547,39 @@
    (!type already_seen 709)
   )
   gc_pointed_to "constexpr_call"
-  (!srcfileloc  "cp/semantics.c" 8093)
+  (!srcfileloc  "cp/semantics.c" 8084)
   (!fields 4 
    (!pair  "fundef"
     (!type pointer 711 nil  gc_used
      (!type struct 712 
       (!type already_seen 711)
       gc_pointed_to "constexpr_fundef"
-      (!srcfileloc  "cp/semantics.c" 7410)
+      (!srcfileloc  "cp/semantics.c" 7401)
       (!fields 2 
        (!pair  "decl"
         (!type already_seen 5)
-        (!srcfileloc  "cp/semantics.c" 7408)
+        (!srcfileloc  "cp/semantics.c" 7399)
         nil )
        (!pair  "body"
         (!type already_seen 5)
-        (!srcfileloc  "cp/semantics.c" 7409)
+        (!srcfileloc  "cp/semantics.c" 7400)
         nil )
       )
       nil 260 nil nil )
     )
-    (!srcfileloc  "cp/semantics.c" 8077)
+    (!srcfileloc  "cp/semantics.c" 8068)
     nil )
    (!pair  "bindings"
     (!type already_seen 5)
-    (!srcfileloc  "cp/semantics.c" 8084)
+    (!srcfileloc  "cp/semantics.c" 8075)
     nil )
    (!pair  "result"
     (!type already_seen 5)
-    (!srcfileloc  "cp/semantics.c" 8089)
+    (!srcfileloc  "cp/semantics.c" 8080)
     nil )
    (!pair  "hash"
     (!type already_seen 9)
-    (!srcfileloc  "cp/semantics.c" 8092)
+    (!srcfileloc  "cp/semantics.c" 8083)
     nil )
   )
   nil 260 nil nil )
@@ -14678,27 +14678,27 @@
      (!type struct 726 
       (!type already_seen 725)
       gc_pointed_to "tinst_level"
-      (!srcfileloc  "cp/cp-tree.h" 4996)
+      (!srcfileloc  "cp/cp-tree.h" 4995)
       (!fields 5 
        (!pair  "next"
         (!type already_seen 725)
-        (!srcfileloc  "cp/cp-tree.h" 4981)
+        (!srcfileloc  "cp/cp-tree.h" 4980)
         nil )
        (!pair  "decl"
         (!type already_seen 5)
-        (!srcfileloc  "cp/cp-tree.h" 4986)
+        (!srcfileloc  "cp/cp-tree.h" 4985)
         nil )
        (!pair  "locus"
         (!type already_seen 9)
-        (!srcfileloc  "cp/cp-tree.h" 4989)
+        (!srcfileloc  "cp/cp-tree.h" 4988)
         nil )
        (!pair  "errors"
         (!type already_seen 9)
-        (!srcfileloc  "cp/cp-tree.h" 4992)
+        (!srcfileloc  "cp/cp-tree.h" 4991)
         nil )
        (!pair  "in_system_header_p"
         (!type already_seen 9)
-        (!srcfileloc  "cp/cp-tree.h" 4995)
+        (!srcfileloc  "cp/cp-tree.h" 4994)
         nil )
       )
       (!options 
@@ -14811,23 +14811,23 @@
   nil 0 nil nil )
  
  (!type struct 745 nil  gc_used "operator_name_info_t"
-  (!srcfileloc  "cp/cp-tree.h" 4745)
+  (!srcfileloc  "cp/cp-tree.h" 4744)
   (!fields 4 
    (!pair  "identifier"
     (!type already_seen 5)
-    (!srcfileloc  "cp/cp-tree.h" 4738)
+    (!srcfileloc  "cp/cp-tree.h" 4737)
     nil )
    (!pair  "name"
     (!type already_seen 36)
-    (!srcfileloc  "cp/cp-tree.h" 4740)
+    (!srcfileloc  "cp/cp-tree.h" 4739)
     nil )
    (!pair  "mangled_name"
     (!type already_seen 36)
-    (!srcfileloc  "cp/cp-tree.h" 4742)
+    (!srcfileloc  "cp/cp-tree.h" 4741)
     nil )
    (!pair  "arity"
     (!type already_seen 9)
-    (!srcfileloc  "cp/cp-tree.h" 4744)
+    (!srcfileloc  "cp/cp-tree.h" 4743)
     nil )
   )
   nil 260 nil nil )
@@ -15141,7 +15141,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 759 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/c/c-parser.c:6071"nil 
+ (!type struct 759 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/c/c-parser.c:6071"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -15268,7 +15268,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 768 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/c-family/c-pragma.c:1169"nil 
+ (!type struct 768 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/c-family/c-pragma.c:1169"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -15397,27 +15397,27 @@
   nil 0 nil )
  
  (!type struct 781 nil  gc_used "lazy_hex_fp_value_struct"
-  (!srcfileloc  "c-family/c-cppbuiltin.c" 1178)
+  (!srcfileloc  "c-family/c-cppbuiltin.c" 1130)
   (!fields 5 
    (!pair  "hex_str"
     (!type already_seen 36)
-    (!srcfileloc  "c-family/c-cppbuiltin.c" 1173)
+    (!srcfileloc  "c-family/c-cppbuiltin.c" 1125)
     nil )
    (!pair  "macro"
     (!type already_seen 570)
-    (!srcfileloc  "c-family/c-cppbuiltin.c" 1174)
+    (!srcfileloc  "c-family/c-cppbuiltin.c" 1126)
     nil )
    (!pair  "mode"
     (!type already_seen 9)
-    (!srcfileloc  "c-family/c-cppbuiltin.c" 1175)
+    (!srcfileloc  "c-family/c-cppbuiltin.c" 1127)
     nil )
    (!pair  "digits"
     (!type already_seen 9)
-    (!srcfileloc  "c-family/c-cppbuiltin.c" 1176)
+    (!srcfileloc  "c-family/c-cppbuiltin.c" 1128)
     nil )
    (!pair  "fp_suffix"
     (!type already_seen 36)
-    (!srcfileloc  "c-family/c-cppbuiltin.c" 1177)
+    (!srcfileloc  "c-family/c-cppbuiltin.c" 1129)
     nil )
   )
   nil 386 nil nil )
@@ -15453,15 +15453,15 @@
    (!type already_seen 788)
   )
   gc_pointed_to "vec<tree_gc_vec,va_gc>"
-  (!srcfileloc  "c-family/c-common.c" 11548)
+  (!srcfileloc  "c-family/c-common.c" 11546)
   (!fields 2 
    (!pair  "va_gc"
     (!type already_seen 3)
-    (!srcfileloc  "c-family/c-common.c" 11548)
+    (!srcfileloc  "c-family/c-common.c" 11546)
     nil )
    (!pair  "tree_gc_vec"
     (!type already_seen 45)
-    (!srcfileloc  "c-family/c-common.c" 11548)
+    (!srcfileloc  "c-family/c-common.c" 11546)
     nil )
   )
  )
@@ -15477,15 +15477,15 @@
    (!type already_seen 791)
   )
   gc_pointed_to "vec<const_char_p,va_gc>"
-  (!srcfileloc  "c-family/c-common.c" 9013)
+  (!srcfileloc  "c-family/c-common.c" 9011)
   (!fields 2 
    (!pair  "va_gc"
     (!type already_seen 3)
-    (!srcfileloc  "c-family/c-common.c" 9013)
+    (!srcfileloc  "c-family/c-common.c" 9011)
     nil )
    (!pair  "const_char_p"
     (!type already_seen 36)
-    (!srcfileloc  "c-family/c-common.c" 9013)
+    (!srcfileloc  "c-family/c-common.c" 9011)
     nil )
   )
  )
@@ -15800,7 +15800,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 828 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/ada/gcc-interface/decl.c:178"nil 
+ (!type struct 828 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/ada/gcc-interface/decl.c:178"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -17717,7 +17717,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1013 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/config/arm/arm.c:29816"nil 
+ (!type struct 1013 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/config/arm/arm.c:29808"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -17725,30 +17725,30 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1015 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/config/arm/arm.c:23256"nil 
+ (!type struct 1015 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/config/arm/arm.c:23265"nil 
   (!fields 0 )
   nil 0 nil nil )
  
  (!type user_struct 1016 nil  gc_unused "hash_table<libcall_hasher>"
-  (!srcfileloc  "config/arm/arm.c" 4767)
+  (!srcfileloc  "config/arm/arm.c" 4765)
   (!fields 1 
    (!pair  "libcall_hasher"
     (!type struct 1017 nil  gc_unused "libcall_hasher"
-     (!srcfileloc  "config/arm/arm.c" 4767)
+     (!srcfileloc  "config/arm/arm.c" 4765)
      (!fields 0 )
      nil 511 nil nil )
-    (!srcfileloc  "config/arm/arm.c" 4767)
+    (!srcfileloc  "config/arm/arm.c" 4765)
     nil )
   )
  )
  
  (!type already_seen 1017)
  
- (!type struct 1018 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/config/arm/arm.c:3097"nil 
+ (!type struct 1018 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/config/arm/arm.c:3095"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1019 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/config/arm/arm.c:2100"nil 
+ (!type struct 1019 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/config/arm/arm.c:2101"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -18082,7 +18082,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type union 1085 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/tree-eh.c:59"nil 
+ (!type union 1085 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/tree-eh.c:59"nil 
   (!fields 0 )
   nil 0 nil )
  
@@ -18712,7 +18712,7 @@
     (!srcfileloc  "gimple.h" 278)
     nil )
    (!pair  "u"
-    (!type union 1126 nil  gc_used "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/gimple.h:281"
+    (!type union 1126 nil  gc_used "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/gimple.h:281"
      (!srcfileloc  "gimple.h" 284)
      (!fields 2 
       (!pair  "fntype"
@@ -18817,11 +18817,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1134 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/varasm.c:4823"nil 
+ (!type struct 1134 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/varasm.c:4823"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1135 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/varasm.c:4579"nil 
+ (!type struct 1135 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/varasm.c:4579"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -18927,7 +18927,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type union 1154 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/mcf.c:344"nil 
+ (!type union 1154 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/mcf.c:344"nil 
   (!fields 0 )
   nil 0 nil )
  
@@ -19299,14 +19299,14 @@
   nil 0 nil nil )
  
  (!type user_struct 1216 nil  gc_unused "hash_table<loc_list_hasher>"
-  (!srcfileloc  "dwarf2out.c" 23887)
+  (!srcfileloc  "dwarf2out.c" 23883)
   (!fields 1 
    (!pair  "loc_list_hasher"
     (!type struct 1217 nil  gc_unused "loc_list_hasher"
-     (!srcfileloc  "dwarf2out.c" 23887)
+     (!srcfileloc  "dwarf2out.c" 23883)
      (!fields 0 )
      nil 511 nil nil )
-    (!srcfileloc  "dwarf2out.c" 23887)
+    (!srcfileloc  "dwarf2out.c" 23883)
     nil )
   )
  )
@@ -19318,14 +19318,14 @@
   nil 0 nil nil )
  
  (!type user_struct 1219 nil  gc_unused "hash_table<macinfo_entry_hasher>"
-  (!srcfileloc  "dwarf2out.c" 21703)
+  (!srcfileloc  "dwarf2out.c" 21699)
   (!fields 1 
    (!pair  "macinfo_entry_hasher"
     (!type struct 1220 nil  gc_unused "macinfo_entry_hasher"
-     (!srcfileloc  "dwarf2out.c" 21703)
+     (!srcfileloc  "dwarf2out.c" 21699)
      (!fields 0 )
      nil 511 nil nil )
-    (!srcfileloc  "dwarf2out.c" 21703)
+    (!srcfileloc  "dwarf2out.c" 21699)
     nil )
   )
  )
@@ -19843,7 +19843,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1274 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/dwarf2cfi.c:218"nil 
+ (!type struct 1274 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/dwarf2cfi.c:218"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -19855,7 +19855,7 @@
   (!type pointer 1277 nil  gc_unused
    (!type already_seen 1276)
   )
-  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/dwarf2cfi.c:101"nil 
+  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/dwarf2cfi.c:101"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -20272,19 +20272,19 @@
    (!type already_seen 1330)
   )
   gc_pointed_to "constant_descriptor_tree"
-  (!srcfileloc  "cgraph.h" 1338)
+  (!srcfileloc  "cgraph.h" 1337)
   (!fields 3 
    (!pair  "rtl"
     (!type already_seen 136)
-    (!srcfileloc  "cgraph.h" 1329)
+    (!srcfileloc  "cgraph.h" 1328)
     nil )
    (!pair  "value"
     (!type already_seen 5)
-    (!srcfileloc  "cgraph.h" 1332)
+    (!srcfileloc  "cgraph.h" 1331)
     nil )
    (!pair  "hash"
     (!type already_seen 9)
-    (!srcfileloc  "cgraph.h" 1337)
+    (!srcfileloc  "cgraph.h" 1336)
     nil )
   )
   nil 511 nil nil )
@@ -21908,7 +21908,7 @@
  
  (!type already_seen 1324)
  
- (!type struct 1432 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/config/arm/arm.h:1582"nil 
+ (!type struct 1432 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/config/arm/arm.h:1582"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -21996,11 +21996,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1448 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/../libcpp/include/cpplib.h:999"nil 
+ (!type struct 1448 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/../libcpp/include/cpplib.h:999"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1449 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/../libcpp/include/cpplib.h:988"nil 
+ (!type struct 1449 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/../libcpp/include/cpplib.h:988"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -22054,7 +22054,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1458 nil  gc_unused "anonymous:/home/buildslave/workspace/BinaryRelease/label/x86_64/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2014.10/gcc/../libcpp/include/line-map.h:627"nil 
+ (!type struct 1458 nil  gc_unused "anonymous:/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.9-2014.09/gcc/../libcpp/include/line-map.h:627"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -22634,11 +22634,11 @@
   nil )
  (!pair  "constexpr_call"
   (!type already_seen 709)
-  (!srcfileloc  "cp/semantics.c" 8093)
+  (!srcfileloc  "cp/semantics.c" 8084)
   nil )
  (!pair  "constexpr_fundef"
   (!type already_seen 712)
-  (!srcfileloc  "cp/semantics.c" 7410)
+  (!srcfileloc  "cp/semantics.c" 7401)
   nil )
  (!pair  "vec<deferred_access,va_gc>"
   (!type already_seen 714)
@@ -22706,95 +22706,95 @@
   nil )
  (!pair  "deferred_access_check"
   (!type already_seen 73)
-  (!srcfileloc  "cp/cp-tree.h" 5700)
+  (!srcfileloc  "cp/cp-tree.h" 5698)
   nil )
  (!pair  "walk_namespaces_fn"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 5279)
+  (!srcfileloc  "cp/cp-tree.h" 5278)
   nil )
  (!pair  "cp_parameter_declarator"
   (!type already_seen 742)
-  (!srcfileloc  "cp/cp-tree.h" 4891)
+  (!srcfileloc  "cp/cp-tree.h" 4890)
   nil )
  (!pair  "cp_declarator"
   (!type already_seen 743)
-  (!srcfileloc  "cp/cp-tree.h" 4889)
+  (!srcfileloc  "cp/cp-tree.h" 4888)
   nil )
  (!pair  "cp_declarator_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4885)
+  (!srcfileloc  "cp/cp-tree.h" 4884)
   nil )
  (!pair  "cp_decl_specifier_seq"
   (!type already_seen 744)
-  (!srcfileloc  "cp/cp-tree.h" 4873)
+  (!srcfileloc  "cp/cp-tree.h" 4872)
   nil )
  (!pair  "cp_decl_spec"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4829)
+  (!srcfileloc  "cp/cp-tree.h" 4828)
   nil )
  (!pair  "cp_storage_class"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4798)
+  (!srcfileloc  "cp/cp-tree.h" 4797)
   nil )
  (!pair  "cp_virt_specifiers"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4768)
+  (!srcfileloc  "cp/cp-tree.h" 4767)
   nil )
  (!pair  "operator_name_info_t"
   (!type already_seen 745)
-  (!srcfileloc  "cp/cp-tree.h" 4745)
+  (!srcfileloc  "cp/cp-tree.h" 4744)
   nil )
  (!pair  "unification_kind_t"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4386)
+  (!srcfileloc  "cp/cp-tree.h" 4385)
   nil )
  (!pair  "cp_cv_quals"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4363)
+  (!srcfileloc  "cp/cp-tree.h" 4362)
   nil )
  (!pair  "base_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4341)
+  (!srcfileloc  "cp/cp-tree.h" 4340)
   nil )
  (!pair  "deferring_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4328)
+  (!srcfileloc  "cp/cp-tree.h" 4327)
   nil )
  (!pair  "base_access"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4321)
+  (!srcfileloc  "cp/cp-tree.h" 4320)
   nil )
  (!pair  "tsubst_flags_t"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4307)
+  (!srcfileloc  "cp/cp-tree.h" 4306)
   nil )
  (!pair  "duration_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4278)
+  (!srcfileloc  "cp/cp-tree.h" 4277)
   nil )
  (!pair  "linkage_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4271)
+  (!srcfileloc  "cp/cp-tree.h" 4270)
   nil )
  (!pair  "special_function_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4248)
+  (!srcfileloc  "cp/cp-tree.h" 4247)
   nil )
  (!pair  "access_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4227)
+  (!srcfileloc  "cp/cp-tree.h" 4226)
   nil )
  (!pair  "tmpl_spec_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4216)
+  (!srcfileloc  "cp/cp-tree.h" 4215)
   nil )
  (!pair  "cp_lvalue_kind"
   (!type already_seen 9)
-  (!srcfileloc  "cp/cp-tree.h" 4198)
+  (!srcfileloc  "cp/cp-tree.h" 4197)
   nil )
  (!pair  "aggr_init_expr_arg_iterator"
   (!type already_seen 746)
-  (!srcfileloc  "cp/cp-tree.h" 3085)
+  (!srcfileloc  "cp/cp-tree.h" 3084)
   nil )
  (!pair  "vec<tree_pair_s,va_gc>"
   (!type already_seen 483)
@@ -23026,23 +23026,23 @@
   nil )
  (!pair  "vec<tree_gc_vec,va_gc>"
   (!type already_seen 788)
-  (!srcfileloc  "c-family/c-common.c" 11548)
+  (!srcfileloc  "c-family/c-common.c" 11546)
   nil )
  (!pair  "tree_gc_vec"
   (!type already_seen 45)
-  (!srcfileloc  "c-family/c-common.c" 11547)
+  (!srcfileloc  "c-family/c-common.c" 11545)
   nil )
  (!pair  "vec<const_char_p,va_gc>"
   (!type already_seen 791)
-  (!srcfileloc  "c-family/c-common.c" 9013)
+  (!srcfileloc  "c-family/c-common.c" 9011)
   nil )
  (!pair  "const_char_p"
   (!type already_seen 29)
-  (!srcfileloc  "c-family/c-common.c" 9012)
+  (!srcfileloc  "c-family/c-common.c" 9010)
   nil )
  (!pair  "disabled_builtin"
   (!type already_seen 793)
-  (!srcfileloc  "c-family/c-common.c" 5763)
+  (!srcfileloc  "c-family/c-common.c" 5761)
   nil )
  (!pair  "c_binding_ptr"
   (!type already_seen 583)
@@ -23330,47 +23330,47 @@
   nil )
  (!pair  "arm_mangle_map_entry"
   (!type already_seen 1013)
-  (!srcfileloc  "config/arm/arm.c" 29820)
+  (!srcfileloc  "config/arm/arm.c" 29812)
   nil )
  (!pair  "builtin_arg"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 25168)
+  (!srcfileloc  "config/arm/arm.c" 25161)
   nil )
  (!pair  "neon_builtin_datum"
   (!type already_seen 1015)
-  (!srcfileloc  "config/arm/arm.c" 23262)
+  (!srcfileloc  "config/arm/arm.c" 23271)
   nil )
  (!pair  "neon_itype"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 23254)
+  (!srcfileloc  "config/arm/arm.c" 23263)
   nil )
  (!pair  "neon_builtin_type_mode"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 23184)
+  (!srcfileloc  "config/arm/arm.c" 23194)
   nil )
  (!pair  "arm_pragma_enum"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 6043)
+  (!srcfileloc  "config/arm/arm.c" 6041)
   nil )
  (!pair  "libcall_table_type"
   (!type already_seen 1016)
-  (!srcfileloc  "config/arm/arm.c" 4767)
+  (!srcfileloc  "config/arm/arm.c" 4765)
   nil )
  (!pair  "libcall_hasher"
   (!type already_seen 1017)
-  (!srcfileloc  "config/arm/arm.c" 4767)
+  (!srcfileloc  "config/arm/arm.c" 4765)
   nil )
  (!pair  "hash_table<libcall_hasher>"
   (!type already_seen 1016)
-  (!srcfileloc  "config/arm/arm.c" 4767)
+  (!srcfileloc  "config/arm/arm.c" 4765)
   nil )
  (!pair  "isr_attribute_arg"
   (!type already_seen 1018)
-  (!srcfileloc  "config/arm/arm.c" 3101)
+  (!srcfileloc  "config/arm/arm.c" 3099)
   nil )
  (!pair  "arm_fixed_mode_set"
   (!type already_seen 1019)
-  (!srcfileloc  "config/arm/arm.c" 2103)
+  (!srcfileloc  "config/arm/arm.c" 2104)
   nil )
  (!pair  "Mfix"
   (!type already_seen 1023)
@@ -23626,31 +23626,31 @@
   nil )
  (!pair  "loc_list_hash_type"
   (!type already_seen 1216)
-  (!srcfileloc  "dwarf2out.c" 23887)
+  (!srcfileloc  "dwarf2out.c" 23883)
   nil )
  (!pair  "loc_list_hasher"
   (!type already_seen 1217)
-  (!srcfileloc  "dwarf2out.c" 23887)
+  (!srcfileloc  "dwarf2out.c" 23883)
   nil )
  (!pair  "hash_table<loc_list_hasher>"
   (!type already_seen 1216)
-  (!srcfileloc  "dwarf2out.c" 23887)
+  (!srcfileloc  "dwarf2out.c" 23883)
   nil )
  (!pair  "macinfo_hash_type"
   (!type already_seen 1219)
-  (!srcfileloc  "dwarf2out.c" 21703)
+  (!srcfileloc  "dwarf2out.c" 21699)
   nil )
  (!pair  "macinfo_entry_hasher"
   (!type already_seen 1220)
-  (!srcfileloc  "dwarf2out.c" 21703)
+  (!srcfileloc  "dwarf2out.c" 21699)
   nil )
  (!pair  "hash_table<macinfo_entry_hasher>"
   (!type already_seen 1219)
-  (!srcfileloc  "dwarf2out.c" 21703)
+  (!srcfileloc  "dwarf2out.c" 21699)
   nil )
  (!pair  "dchar_p"
   (!type already_seen 29)
-  (!srcfileloc  "dwarf2out.c" 19148)
+  (!srcfileloc  "dwarf2out.c" 19144)
   nil )
  (!pair  "external_ref_hash_type"
   (!type already_seen 1224)
@@ -23910,23 +23910,23 @@
   nil )
  (!pair  "cgraph_2node_hook"
   (!type already_seen 9)
-  (!srcfileloc  "cgraph.h" 833)
+  (!srcfileloc  "cgraph.h" 832)
   nil )
  (!pair  "cgraph_2edge_hook"
   (!type already_seen 9)
-  (!srcfileloc  "cgraph.h" 831)
+  (!srcfileloc  "cgraph.h" 830)
   nil )
  (!pair  "varpool_node_hook"
   (!type already_seen 9)
-  (!srcfileloc  "cgraph.h" 829)
+  (!srcfileloc  "cgraph.h" 828)
   nil )
  (!pair  "cgraph_node_hook"
   (!type already_seen 9)
-  (!srcfileloc  "cgraph.h" 828)
+  (!srcfileloc  "cgraph.h" 827)
   nil )
  (!pair  "cgraph_edge_hook"
   (!type already_seen 9)
-  (!srcfileloc  "cgraph.h" 827)
+  (!srcfileloc  "cgraph.h" 826)
   nil )
  (!pair  "cgraph_edge_p"
   (!type already_seen 915)
@@ -24878,7 +24878,7 @@
  
  (!type already_seen 542)
 )
-(!variables 614
+(!variables 613
  (!pair  "objc_eh_personality_decl"
   (!type already_seen 5)
   (!srcfileloc  "objc/objc-next-runtime-abi-02.c" 3608)
@@ -25902,7 +25902,7 @@
  )
  (!pair  "constexpr_call_table"
   (!type already_seen 1482)
-  (!srcfileloc  "cp/semantics.c" 8098)
+  (!srcfileloc  "cp/semantics.c" 8089)
   (!options 
    (!option param_is type 
     (!type already_seen 709)
@@ -25911,7 +25911,7 @@
  )
  (!pair  "constexpr_fundef_table"
   (!type already_seen 1484)
-  (!srcfileloc  "cp/semantics.c" 7415)
+  (!srcfileloc  "cp/semantics.c" 7406)
   (!options 
    (!option param_is type 
     (!type already_seen 712)
@@ -25932,7 +25932,7 @@
   nil )
  (!pair  "last_error_tinst_level"
   (!type already_seen 725)
-  (!srcfileloc  "cp/pt.c" 8241)
+  (!srcfileloc  "cp/pt.c" 8238)
   nil )
  (!pair  "canonical_template_parms"
   (!type already_seen 45)
@@ -25978,25 +25978,21 @@
   nil )
  (!pair  "ssdf_decls"
   (!type already_seen 45)
-  (!srcfileloc  "cp/decl2.c" 3312)
+  (!srcfileloc  "cp/decl2.c" 3317)
   nil )
  (!pair  "ssdf_decl"
   (!type already_seen 5)
-  (!srcfileloc  "cp/decl2.c" 3308)
+  (!srcfileloc  "cp/decl2.c" 3313)
   nil )
  (!pair  "priority_decl"
   (!type already_seen 5)
-  (!srcfileloc  "cp/decl2.c" 3305)
+  (!srcfileloc  "cp/decl2.c" 3310)
   nil )
  (!pair  "initialize_p_decl"
   (!type already_seen 5)
-  (!srcfileloc  "cp/decl2.c" 3302)
+  (!srcfileloc  "cp/decl2.c" 3307)
   nil )
  (!pair  "no_linkage_decls"
-  (!type already_seen 45)
-  (!srcfileloc  "cp/decl2.c" 108)
-  nil )
- (!pair  "maybe_comdat_fns"
   (!type already_seen 45)
   (!srcfileloc  "cp/decl2.c" 104)
   nil )
@@ -26035,39 +26031,39 @@
   nil )
  (!pair  "unemitted_tinfo_decls"
   (!type already_seen 45)
-  (!srcfileloc  "cp/cp-tree.h" 5634)
+  (!srcfileloc  "cp/cp-tree.h" 5632)
   nil )
  (!pair  "deferred_mark_used_calls"
   (!type already_seen 45)
-  (!srcfileloc  "cp/cp-tree.h" 5303)
+  (!srcfileloc  "cp/cp-tree.h" 5302)
   nil )
  (!pair  "assignment_operator_name_info"
   (!type array 1568 nil  gc_used "(int) MAX_TREE_CODES" 
    (!type already_seen 745)
   )
-  (!srcfileloc  "cp/cp-tree.h" 4752)
+  (!srcfileloc  "cp/cp-tree.h" 4751)
   nil )
  (!pair  "operator_name_info"
   (!type array 1569 nil  gc_used "(int) MAX_TREE_CODES" 
    (!type already_seen 745)
   )
-  (!srcfileloc  "cp/cp-tree.h" 4749)
+  (!srcfileloc  "cp/cp-tree.h" 4748)
   nil )
  (!pair  "tls_aggregates"
   (!type already_seen 5)
-  (!srcfileloc  "cp/cp-tree.h" 4494)
+  (!srcfileloc  "cp/cp-tree.h" 4493)
   nil )
  (!pair  "static_aggregates"
   (!type already_seen 5)
-  (!srcfileloc  "cp/cp-tree.h" 4492)
+  (!srcfileloc  "cp/cp-tree.h" 4491)
   nil )
  (!pair  "local_classes"
   (!type already_seen 45)
-  (!srcfileloc  "cp/cp-tree.h" 4394)
+  (!srcfileloc  "cp/cp-tree.h" 4393)
   nil )
  (!pair  "integer_two_node"
   (!type already_seen 5)
-  (!srcfileloc  "cp/cp-tree.h" 4349)
+  (!srcfileloc  "cp/cp-tree.h" 4348)
   nil )
  (!pair  "scope_chain"
   (!type already_seen 751)
@@ -26181,13 +26177,13 @@
   nil )
  (!pair  "lazy_hex_fp_value_count"
   (!type already_seen 9)
-  (!srcfileloc  "c-family/c-cppbuiltin.c" 1180)
+  (!srcfileloc  "c-family/c-cppbuiltin.c" 1132)
   nil )
  (!pair  "lazy_hex_fp_values"
   (!type array 1572 nil  gc_used "12" 
    (!type already_seen 781)
   )
-  (!srcfileloc  "c-family/c-cppbuiltin.c" 1179)
+  (!srcfileloc  "c-family/c-cppbuiltin.c" 1131)
   nil )
  (!pair  "pending_lang_change"
   (!type already_seen 9)
@@ -26208,24 +26204,24 @@
  )
  (!pair  "tree_vector_cache"
   (!type already_seen 789)
-  (!srcfileloc  "c-family/c-common.c" 11548)
+  (!srcfileloc  "c-family/c-common.c" 11546)
   (!options 
    (!option deletable string  "")
   )
  )
  (!pair  "optimize_args"
   (!type already_seen 792)
-  (!srcfileloc  "c-family/c-common.c" 9013)
+  (!srcfileloc  "c-family/c-common.c" 9011)
   nil )
  (!pair  "compound_literal_number"
   (!type already_seen 9)
-  (!srcfileloc  "c-family/c-common.c" 5734)
+  (!srcfileloc  "c-family/c-common.c" 5732)
   nil )
  (!pair  "built_in_attributes"
   (!type array 1574 nil  gc_used "(int) ATTR_LAST" 
    (!type already_seen 5)
   )
-  (!srcfileloc  "c-family/c-common.c" 5109)
+  (!srcfileloc  "c-family/c-common.c" 5107)
   nil )
  (!pair  "type_hash_table"
   (!type already_seen 53)
@@ -26481,7 +26477,7 @@
  )
  (!pair  "asan_ctor_statements"
   (!type already_seen 5)
-  (!srcfileloc  "asan.c" 2400)
+  (!srcfileloc  "asan.c" 2399)
   nil )
  (!pair  "asan_detect_stack_use_after_return"
   (!type already_seen 5)
@@ -26542,15 +26538,15 @@
   nil )
  (!pair  "clone_fn_id_num"
   (!type already_seen 9)
-  (!srcfileloc  "cgraphclones.c" 517)
+  (!srcfileloc  "cgraphclones.c" 491)
   nil )
  (!pair  "vtable_entry_type"
   (!type already_seen 5)
-  (!srcfileloc  "cgraphunit.c" 233)
+  (!srcfileloc  "cgraphunit.c" 234)
   nil )
  (!pair  "asm_last_node"
   (!type already_seen 1338)
-  (!srcfileloc  "cgraphunit.c" 230)
+  (!srcfileloc  "cgraphunit.c" 231)
   nil )
  (!pair  "order"
   (!type already_seen 913)
@@ -26563,19 +26559,19 @@
   (!type array 1585 nil  gc_used "ARM_BUILTIN_MAX" 
    (!type already_seen 5)
   )
-  (!srcfileloc  "config/arm/arm.c" 23646)
+  (!srcfileloc  "config/arm/arm.c" 23655)
   nil )
  (!pair  "tls_get_addr_libfunc"
   (!type already_seen 136)
-  (!srcfileloc  "config/arm/arm.c" 7380)
+  (!srcfileloc  "config/arm/arm.c" 7378)
   nil )
  (!pair  "pic_labelno"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 6639)
+  (!srcfileloc  "config/arm/arm.c" 6637)
   nil )
  (!pair  "va_list_type"
   (!type already_seen 5)
-  (!srcfileloc  "config/arm/arm.c" 2427)
+  (!srcfileloc  "config/arm/arm.c" 2428)
   nil )
  (!pair  "stack_chk_fail_decl"
   (!type already_seen 5)
@@ -26587,7 +26583,7 @@
   nil )
  (!pair  "critical_name_mutexes"
   (!type already_seen 1494)
-  (!srcfileloc  "omp-low.c" 8942)
+  (!srcfileloc  "omp-low.c" 8882)
   (!options 
    (!option param2_is type 
     (!type already_seen 5)
@@ -27009,21 +27005,21 @@
     (!type already_seen 136)
    )
   )
-  (!srcfileloc  "emit-rtl.c" 5953)
+  (!srcfileloc  "emit-rtl.c" 5949)
   (!options 
    (!option deletable string  "")
   )
  )
  (!pair  "free_sequence_stack"
   (!type already_seen 1366)
-  (!srcfileloc  "emit-rtl.c" 5101)
+  (!srcfileloc  "emit-rtl.c" 5097)
   (!options 
    (!option deletable string  "")
   )
  )
  (!pair  "spill_slot_decl"
   (!type already_seen 5)
-  (!srcfileloc  "emit-rtl.c" 2292)
+  (!srcfileloc  "emit-rtl.c" 2288)
   nil )
  (!pair  "const_fixed_htab"
   (!type already_seen 1518)
