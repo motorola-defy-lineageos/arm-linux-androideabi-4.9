@@ -65,6 +65,15 @@ __isl_null isl_schedule_constraints *isl_schedule_constraints_free(
 
 isl_ctx *isl_schedule_constraints_get_ctx(
 	__isl_keep isl_schedule_constraints *sc);
+__isl_give isl_union_map *isl_schedule_constraints_get_validity(
+	__isl_keep isl_schedule_constraints *sc);
+__isl_give isl_union_map *isl_schedule_constraints_get_coincidence(
+	__isl_keep isl_schedule_constraints *sc);
+__isl_give isl_union_map *isl_schedule_constraints_get_conditional_validity(
+	__isl_keep isl_schedule_constraints *sc);
+__isl_give isl_union_map *
+isl_schedule_constraints_get_conditional_validity_condition(
+	__isl_keep isl_schedule_constraints *sc);
 
 void isl_schedule_constraints_dump(__isl_keep isl_schedule_constraints *sc);
 
@@ -104,6 +113,8 @@ __isl_give isl_schedule *isl_schedule_insert_context(
 __isl_give isl_schedule *isl_schedule_insert_partial_schedule(
 	__isl_take isl_schedule *schedule,
 	__isl_take isl_multi_union_pw_aff *partial);
+__isl_give isl_schedule *isl_schedule_insert_guard(
+	__isl_take isl_schedule *schedule, __isl_take isl_set *guard);
 __isl_give isl_schedule *isl_schedule_sequence(
 	__isl_take isl_schedule *schedule1, __isl_take isl_schedule *schedule2);
 __isl_give isl_schedule *isl_schedule_set(
